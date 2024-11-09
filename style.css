@@ -1,0 +1,347 @@
+body{
+    font-family:  nunito;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    background-color: #f4f1f1;
+    box-shadow: 1px 1px 2px #DAD7D7, -1px -1px 2px #DAD7D7 ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1160px 0px 270px 0px;
+}
+.name{
+    font-size: 55px;
+    font-weight: lighter;
+}
+.name > span{
+    font-weight: BOLD;
+}
+.emailNumber{
+    display: flex;
+}
+.emailNumber span{
+    color: #cec9c9;
+}
+.separator {
+    height: 20px;
+    display: inline-block;
+    border-left: 5px solid #999;
+    margin: 0px 10px;
+  }
+.separatorSeconds {
+    height: 20px;
+    display: inline-block;
+    border-left: 5px solid #999;
+    margin: 0px 99px;
+  }
+.github{
+    margin: 0px -90px;
+}
+.description{
+    margin-top: 20px;
+}
+.description span{
+    text-decoration: underline;
+}
+.matric,.inter,.uni{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+} 
+.matricResult,.interResult,.uniResult{
+    margin-top: -20px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+} 
+a:active, a:focus{
+    color: #000f65;
+}
+
+.skillName{
+    font-weight: bold;
+}
+.primaryColor{
+    color: #16213E;
+}
+.secondaryColor{
+    color: #1A1A2E;
+    font-size: 1rem;
+}
+.black{
+    color: #000;
+}
+
+@media  (max-width:768px) {
+    body{
+    font-family:  nunito;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    background-color: #f4f1f1;
+    box-shadow: 1px 1px 2px #DAD7D7, -1px -1px 2px #DAD7D7 ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1160px 0px 270px 0px;
+}
+.name{
+    font-size: 55px;
+    font-weight: lighter;
+}
+.name > span{
+    font-weight: BOLD;
+}
+.emailNumber{
+    display: flex;
+}
+.emailNumber span{
+    color: #cec9c9;
+}
+.separator {
+    height: 20px;
+    display: inline-block;
+    border-left: 5px solid #999;
+    margin: 0px 10px;
+  }
+.separatorSeconds {
+    height: 20px;
+    display: inline-block;
+    border-left: 5px solid #999;
+    margin: 0px 99px;
+  }
+.github{
+    margin: 0px -90px;
+}
+.description{
+    margin-top: 20px;
+}
+.description span{
+    text-decoration: underline;
+}
+.matric,.inter,.uni{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+} 
+.matricResult,.interResult,.uniResult{
+    margin-top: -20px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+} 
+a:active, a:focus{
+    color: #000f65;
+}
+
+.skillName{
+    font-weight: bold;
+}
+.primaryColor{
+    color: green;
+}
+.secondaryColor{
+    color: #1A1A2E;
+    font-size: 1rem;
+}
+.black{
+    color: #000;
+}}
+
+
+@media (max-width:999px) {
+    body{
+    font-family:  nunito;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    background-color: #f4f1f1;
+    box-shadow: 1px 1px 2px #DAD7D7, -1px -1px 2px #DAD7D7 ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1160px 0px 270px 0px;
+}
+.name{
+    font-size: 55px;
+    font-weight: lighter;
+}
+.name > span{
+    font-weight: BOLD;
+}
+.emailNumber{
+    display: flex;
+}
+.emailNumber span{
+    color: #cec9c9;
+}
+.separator {
+    height: 20px;
+    display: inline-block;
+    border-left: 5px solid #999;
+    margin: 0px 10px;
+  }
+.separatorSeconds {
+    height: 20px;
+    display: inline-block;
+    border-left: 5px solid #999;
+    margin: 0px 99px;
+  }
+.github{
+    margin: 0px -90px;
+}
+.description{
+    margin-top: 20px;
+}
+.description span{
+    text-decoration: underline;
+}
+.matric,.inter,.uni{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+} 
+.matricResult,.interResult,.uniResult{
+    margin-top: -20px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+} 
+a:active, a:focus{
+    color: #000f65;
+}
+
+.skillName{
+    font-weight: bold;
+}
+.primaryColor{
+    color: yellow;
+}
+.secondaryColor{
+    color: #1A1A2E;
+    font-size: 1rem;
+}
+.black{
+    color: #000;
+}}
+
+
+@media (max-width:576px){
+    body{
+    font-family:  nunito;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    width: 100vw;
+                        border: 3px solid;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    background-color: #f4f1f1;
+    box-shadow: 1px 1px 2px #DAD7D7, -1px -1px 2px #DAD7D7 ;
+    border-radius: 10px;
+    padding: 08px;
+    margin: 1460px 0px 270px 0px;
+}
+.name{
+    font-size: 28px;
+    font-weight: lighter;
+}
+.name > span{
+    font-weight: BOLD;
+}
+.emailNumber{
+    display: flex;
+}
+.emailNumber span{
+    color: #cec9c9;
+}
+.separator {
+    height: 25px;
+    display: inline-block;
+    border-left: 3px solid #999;
+    margin: 0px 10px;
+  }
+.separatorSeconds {
+    height: 25px;
+    display: inline-block;
+    border-left: 3px solid #999;
+    margin: 0px 99px;
+  }
+.github{
+    margin: 0px 20px;
+}
+.description{
+    margin-top: 20px;
+}
+.description span{
+    text-decoration: underline;
+}
+.matric,.inter,.uni{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+} 
+.matricResult,.interResult,.uniResult{
+    margin-top: -20px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+} 
+a:active, a:focus{
+    color: #000f65;
+}
+
+.skillName{
+    font-weight: bold;
+}
+.primaryColor{
+    color: brown;
+}
+.secondaryColor{
+    color: #1A1A2E;
+    font-size: 1rem;
+}
+.black{
+    color: #000;
+}}
+
+
